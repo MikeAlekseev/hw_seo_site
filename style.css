@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {}
+
+.container {
+    width: 1210px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_header {
+    margin-top: 24px;
+}
+
+.nav {
+    margin-top: 11px;
+    margin-bottom: 12px;
+    /* width: 47%; */
+    align-items: center;
+}
+
+.header_link {
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.header_link_red {
+    color: red;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.top_content {
+    margin-top: 83px;
+}
+
+.info_flex {}
+
+.top_info {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 42%;
+}
+
+.title {
+    margin-bottom: 18px;
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.sub_title {
+    margin-bottom: 37px;
+    color: rgb(136, 136, 136);
+    font-family: Gilroy-Medium;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.top_buttons {
+    margin-bottom: 163.5px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.green_button {
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+    padding: 1rem 2rem;
+    margin-right: 36px;
+    transition: all 0.35s;
+    border: 2px solid transparent;
+}
+
+.green_button:hover {
+    color: black;
+    background-color: #FFF;
+    border: 2px solid rgba(242, 88, 34, 0.2);
+}
+
+.white_button {
+    color: rgb(170, 170, 170);
+    font-family: Gilroy-Bold;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 36px;
+}
+
+.top_logo {
+    height: 375px;
+    width: 545px;
+}
+
+.logos {
+    padding: 97px 375px 96px 345px;
+}
+
+.info_items {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    /* padding-top: 100px; */
+    padding-bottom: 100px;
+}
+
+.item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: ;
+    padding-top: 40px 30px 25px 30px;
+}
+
+.item_title {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 17px;
+}
+
+.item_text {
+    color: rgb(102, 102, 102);
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.read {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 25px;
+}
+
+.cards {
+    background: rgb(250, 250, 250);
+    padding-bottom: 100px;
+}
+
+.info_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card_main_title {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 92px;
+    margin-bottom: 19px;
+}
+
+.card_main_text {
+    color: rgb(102, 102, 102);
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.main_card {
+    display: flex;
+    justify-content: space-between;
+    gap: 9px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.card_title {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding-bottom: 22px;
+}
+
+.card_text {
+    color: rgb(170, 170, 170);
+    font-family: Gilroy-Regular;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 39px;
+}
+
+.learn_button {
+    padding: 1rem 2rem;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-family: Gilroy-Bold;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 50px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+    background: rgb(242, 88, 34);
+}
