@@ -253,3 +253,38 @@ a {
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
     background: rgb(242, 88, 34);
 }
+
+.mokup_info {
+    display: flex;
+    align-items: flex-start;
+    justify-items: stretch;
+    flex-direction: column;
+}
+
+.mockup_title {
+    color: rgb(0, 0, 0);
+    font-family: Gilroy-Bold;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.mockup_text {
+    color: rgb(102, 102, 102);
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+
+.mockup_flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
